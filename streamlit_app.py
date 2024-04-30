@@ -55,7 +55,7 @@ st.sidebar.caption('Built by [Snowflake](https://snowflake.com/) to demonstrate 
 @st.cache_resource(show_spinner=False)
 def get_tokenizer():
     """Get a tokenizer to make sure we're not sending too much text
-    text to the Model. Eventually we will replace this with ArcticTokenizer
+    to the Model. Eventually we will replace this with ArcticTokenizer
     """
     return AutoTokenizer.from_pretrained("huggyllama/llama-7b")
 
